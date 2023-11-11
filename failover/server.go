@@ -3,8 +3,8 @@ package failover
 import (
 	"fmt"
 
-	"github.com/go-mysql-org/go-mysql/client"
-	. "github.com/go-mysql-org/go-mysql/mysql"
+	"github.com/goldeneyetech/go-mysql/client"
+	. "github.com/goldeneyetech/go-mysql/mysql"
 )
 
 type User struct {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/go-mysql-org/go-mysql/dump"
+	"github.com/goldeneyetech/go-mysql/dump"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	. "github.com/go-mysql-org/go-mysql/mysql"
-	"github.com/go-mysql-org/go-mysql/packet"
+	. "github.com/goldeneyetech/go-mysql/mysql"
+	"github.com/goldeneyetech/go-mysql/packet"
 	"github.com/pingcap/errors"
 )
 

@@ -11,8 +11,8 @@ import (
 
 	"github.com/pingcap/errors"
 
-	"github.com/go-mysql-org/go-mysql/mysql"
-	"github.com/go-mysql-org/go-mysql/replication"
+	"github.com/goldeneyetech/go-mysql/mysql"
+	"github.com/goldeneyetech/go-mysql/replication"
 )
 
 var (

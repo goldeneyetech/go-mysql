@@ -3,7 +3,7 @@ package server
 import (
 	"testing"
 
-	"github.com/go-mysql-org/go-mysql/mysql"
+	"github.com/goldeneyetech/go-mysql/mysql"
 	"github.com/stretchr/testify/require"
 )
 
