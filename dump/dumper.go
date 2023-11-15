@@ -181,8 +181,8 @@ func (d *Dumper) Dump(w io.Writer) error {
 		args = append(args, fmt.Sprintf("--protocol=%s", d.Protocol))
 	}
 
-	// args = append(args, "--single-transaction")
-	// args = append(args, "--set-gtid-purged=OFF")
+	args = append(args, "--single-transaction")
+	args = append(args, "--set-gtid-purged=OFF")
 	args = append(args, "--skip-lock-tables")
 
 	// Disable uncessary data
